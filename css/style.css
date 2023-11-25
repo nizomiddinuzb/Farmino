@@ -1,0 +1,81 @@
+nav{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.nav__ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.nav__ul a{
+    text-decoration: none;
+}
+.nav__btn{
+justify-content: center;
+align-items: center;
+width: 100px;
+height: 40px;
+background: #C13512;
+border: none;
+margin-left: 32px;
+cursor: pointer;
+transition: 0.3s;
+}
+.nav__btn:hover{
+    background-color: blueviolet;
+}
+.nav__btn:active{
+    background-color: red;
+}
+.bacground{
+    background-image: url(../static/png/BG.png);
+    width: 1441px;
+    height: 736.683px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    padding-top: 109px;
+    font-size: 56px;
+font-style: normal;
+font-weight: 700;
+}
+.bgi__p{
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.bgi__words{
+    align-items: center;
+    text-align: center;
+}
+.buttons{
+    margin-top: 50px;
+}
+.bgi__buttonn{
+    width: 202px;
+    height: 48px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.bgi__button{
+    width: 202px;
+    height: 48px;
+    background-color: #023f3a;
+    border-color: #ffffff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.bgi__buttonn:hover{
+    background-color: #023f3a;
+}
+.bgi__button:hover{
+    background-color: #ffffff;
+}
+.small__img {
+margin-top: 60px;
+}
